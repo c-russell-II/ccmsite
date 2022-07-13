@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+* {
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, #root, html {
+    height: 100%;
+    margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background, .outer, .inner {
+    height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(./Assets/cybrosloadscreen.jpeg);
 }
-
-.App-link {
-  color: #61dafb;
+.outer {
+    display: flex;
+    background: rgba(102, 102, 102, 0.6);
+    justify-content: center;
+    align-content: center;
+    width: 60%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner {
+    display: flex;
+    flex-flow: column wrap;
+    background: rgba(102, 102, 102, 0.85);
+    border-radius: 15px;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2%;
 }
