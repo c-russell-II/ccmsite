@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import styles from './styles.module.css';
 
 const ModSummary = (props) => {
     const {name, author, summary, linkName} = props.mod;
@@ -13,12 +14,19 @@ const ModSummary = (props) => {
     }
     const pageLink = `/mod/${props.index}/${linkName}`
     return (
-        <article className={isActive ? 'expandedModSummary' : 'modSummary'}>
-            <h3  style={{display: "inline"}}><strong>{name}</strong> by <em>{author}</em></h3> <button onClick={handleClick} style={{display: "inline"}}>{isActive ? '-' : '+' }</button>
+        <article className={isActive ? styles.summaryOpen : styles.summaryCollapsed}>
+            <div onClick={handleClick} className={styles.titleBar}>
+                <h3 className={isActive ? styles.titleOpen : styles.collapsedTitle}>{name} by {author}</h3>
+                <button  className={isActive ? styles.buttonOpen : styles.buttonClosed}>{isActive ? '-' : '+' }</button>
+            </div>
             {isActive &&
                 <>
-                    <p>{summary}</p>
-                    <Link to={pageLink}>More on {name}</Link> <span className="spacer">||</span><p>Download {name} now!</p>
+                    <p className={styles.summaryBody}>{summary}</p>
+                    <div className={styles.linkSection}>
+                        <Link to={pageLink}>More on {name}</Link>
+                        <span className={styles.spacingBars}>||</span>
+                        <p>Download {name} now!</p>
+                    </div>
                 </>
             }
         </article>

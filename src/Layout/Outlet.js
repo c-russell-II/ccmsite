@@ -1,12 +1,12 @@
 import { Outlet } from "react-router"
-
+import styles from './styles.module.css';
 
 const Layout = (props) => {
 
     return (
-        <div className="background">
-            <div className="outer">
-                <div className="inner">
+        <div className={styles.background}>
+            <div className={styles.outer}>
+                <div className={styles.inner}>
                     <Outlet/>
                 </div>
             </div>

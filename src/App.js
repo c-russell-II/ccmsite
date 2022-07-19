@@ -1,18 +1,19 @@
-import { Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import ModSummary from './Mod Summary/ModSummary';
-import modInfo from './ModInfo';
+import Layout from './Layout/Outlet';
+import DownloadPage from './Download Page/DownloadPage';
+import ModPage from './Mod Summary/ModPage';
+import LandingPage from './Landing Page/LandingPage';
 
 function App() {
   return (
-    <>
-      <h1>Sc2 Custom Campaign Manager Website, Unstyled Edition</h1>
-      <Link to="/download">Download now (Primary link, until Styled edition adds hero banner &c)</Link>
-      <section>
-        <h2>Currently Available Mods:</h2>
-        {modInfo.map((e,i) => <ModSummary mod={e} index={i} key={i}/>)}
-      </section>
-    </>
+    <Routes>
+    `  <Route path="/" element={<Layout/>}>
+        <Route index element={<LandingPage/>}/>
+        <Route path="download" element={<DownloadPage/>}/>
+        <Route path="/mod/:index/:modLink" element={<ModPage/>}/>
+      </Route>`
+  </Routes>
   );
 }
 

@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import modInfo from "../ModInfo";
+import modInfo from "../Utilities/ModInfo";
 
 
 const ModPage = (props) => {

@@ -1,0 +1,37 @@
+.title {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    justify-self: center;
+    margin: 1%;
+}
+.heroImage {
+    width: 95%;
+    height: auto;
+    margin: 1% 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    box-shadow: 10px 8px 10px -3px black;
+}
+.sectionHeader {
+    font-size: 1.6em;
+    text-align: center;
+    justify-self: center;
+    text-decoration: underline;
+    margin: 1% 0;
+}
+.summarySection {
+    margin: 1%;
+    padding: 2%;
+    justify-self: flex-start;
+    border-left: 4px solid hsla(0, 0%, 83%, 30%);
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-right: 4px solid hsla( 0, 0%, 83%, 30%);
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    box-sizing: border-box;
+    width: 95%;
+}

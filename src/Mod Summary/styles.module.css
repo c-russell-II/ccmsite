@@ -1,0 +1,69 @@
+.summaryCollapsed {
+    box-sizing: content-box;
+    padding: 0.5%;
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+} 
+.collapsedTitle {
+    font-weight: 500;
+    font-size: larger;
+    display: inline;
+}
+.buttonClosed {
+    color: hsla(0, 0%, 15%, 55%);
+    border-color: hsla(0, 0%, 15%, 55%);
+    display: inline;
+    border-style:ridge;
+    align-self:baseline;
+    margin-left: auto;
+    font-weight: 700;
+}
+.buttonOpen {
+    color: hsla(0, 0%, 15%, 55%);
+    border-color: hsla(0, 0%, 15%, 55%);
+    display: inline;
+    border-style:ridge;
+    align-self:baseline;
+    font-weight: 700;
+}
+.summaryOpen {
+    box-sizing: content-box;
+    padding: 0.5%;
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.titleOpen {
+    font-weight: 500;
+    display: inline;
+    font-size: larger;
+}
+.titleBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsla(0, 0%, 85%, 65);
+}
+
+.summaryBody {
+    line-height: 1.5;
+    padding: 3%;
+    border-bottom: 1px solid hsla(0, 0%, 85%, 65);
+    border-radius: 5%;
+}
+.linkSection {
+    padding: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.spacingBars {
+    font-weight:900;
+    font-size:large;
+}
