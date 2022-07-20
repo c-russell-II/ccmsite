@@ -36,7 +36,7 @@ const modInfo = [
         description: 'Real-Scale Wings of Liberty allows the player to enjoy the campaign in a more lore-accurate way. All units are scaled to more accurately reflect their canonical size. Unit statistics are also changed to represent those new sizes. Battlecruisers have 17,000 HP and Marines are blown away by single Siege Tank shots. This mod functions on all difficulties.',
         thumbnailLink: "WoLDefault.jpg",
         links: {
-            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFu36fzV3AUasB4zt4HEb6-6", thumb: "https://img.youtube.com/vi/YyuGutwzW-E/sddefault.jpg"}],
+            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFu36fzV3AUasB4zt4HEb6-6", thumb: "https://img.youtube.com/vi/YyuGutwzW-E/sddefault.jpg"}, {creator: 'Lowko', link: "https://www.youtube.com/watch?v=CMx_ARlc03k", thumb: "https://img.youtube.com/vi/CMx_ARlc03k/sddefault.jpg"}],
             download: 'https://drive.google.com/drive/folders/1YC2Ppp3DDV8BmcOfEkY58yCWOp2gQ34h?usp=sharing',
             other: {},
         }
@@ -49,7 +49,7 @@ const modInfo = [
         description: "Real-Scale Heart of the Swarm is a follow-up to Real-Scale Wings of Liberty. All units are scaled to more accurately reflect their canonical size. Unit statistics are also changed to represent those new sizes. Unit spawns numbers have been altered and a maxed out raptor zergling army might crash your computer. Have fun! The mod functions on all difficulties.",
         thumbnailLink: "HotSDefault.jpg",
         links: {
-            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFvFCMPqAxHR7EFDXC-CvPWw", thumb: "https://img.youtube.com/vi/Aa5jfXO6Qhw/sddefault.jpg"}],
+            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFvFCMPqAxHR7EFDXC-CvPWw", thumb: "https://img.youtube.com/vi/Aa5jfXO6Qhw/sddefault.jpg"}, {creator: 'Lowko', link: "https://www.youtube.com/watch?v=MS1fOl56REA", thumb: "https://img.youtube.com/vi/MS1fOl56REA/sddefault.jpg"}],
             download: 'https://drive.google.com/drive/folders/1xj--_v4UUZDs1WOc2z81XbLxqwFmW75L?usp=sharing',
             other: {},
         }
@@ -91,7 +91,7 @@ const modInfo = [
         description: "Made by Orcawarrior2, 7thAce, Finlay, and the GiantGrantGames community as a whole, Legacy of the Meme is a total revamp of all units in Legacy of the Void into more...imaginative variants. From Shadow Furries to the Very Hungry Caterpillar each mission will unlock a variety of weird, cool, and sometimes even balanced units! The mod functions on all difficulties.",
         thumbnailLink: "LotVDefault.jpeg",
         links: {
-            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFsDzXB1YcQOWFXNHoAmHE2i", thumb: "https://img.youtube.com/vi/keUViEHepGg/sddefault.jpg"}],
+            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFsDzXB1YcQOWFXNHoAmHE2i", thumb: "https://img.youtube.com/vi/keUViEHepGg/sddefault.jpg"}, {creator: 'Lowko', link: "https://www.youtube.com/watch?v=5ZubI4F3JC4", thumb: "https://img.youtube.com/vi/5ZubI4F3JC4/sddefault.jpg"}],
             download: 'https://drive.google.com/drive/folders/1phMr-sV2siiD8-jp0-uEX0DpnBPGq0zW?usp=sharing',
             other: {},
         }

@@ -15,6 +15,9 @@
     border-right: 3px solid black;
     box-shadow: 10px 8px 10px -3px black;
 }
+.heroImage:hover {
+    cursor: pointer;
+}
 .sectionHeader {
     font-size: 1.6em;
     text-align: center;
