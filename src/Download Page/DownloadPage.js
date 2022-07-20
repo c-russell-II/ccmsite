@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from './styles.module.css'
 
 const DownloadPage = (props) => {
@@ -6,7 +7,9 @@ const DownloadPage = (props) => {
     return (
         <main className={styles.downloadContainer}>
             <h1>Download starting dialogue, placeholder</h1>
-            <h2>Download override dialogue, placeholder</h2>
+            <p>Downlaod override dialogue, placeholder</p>
+            <Link to="/">Click here to return home and select a specific mod to download!</Link>
+            <h2 className={styles.downloadHeader}>Installation & Usage Instructions</h2>
             <ol className={styles.listContainer}>
                 <li className={styles.listItem}>Extract files to a convenient location.</li>
                 <img src={require("../Assets/extract.png")} className={styles.downloadImage} height="1116" width="728" alt="Showing extract folder steps"/>

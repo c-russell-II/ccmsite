@@ -25,7 +25,7 @@ const ModSummary = (props) => {
                     <div className={styles.linkSection}>
                         <Link to={pageLink}>More on {name}</Link>
                         <span className={styles.spacingBars}>||</span>
-                        <p>Download {name} now!</p>
+                        <Link to={pageLink + "/download"}>Click Here to download {name} now!</Link>
                     </div>
                 </>
             }

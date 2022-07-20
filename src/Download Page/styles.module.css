@@ -24,3 +24,7 @@
 .listItem {
     margin: 1em 1em;   
 }
+.downloadHeader {
+    font-size: large;
+    font-weight: 500;
+}

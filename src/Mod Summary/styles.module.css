@@ -67,3 +67,59 @@
     font-weight:900;
     font-size:large;
 }
+
+.modPageHeader {
+    font-size:xx-large;
+    font-weight: 700;
+    align-self: flex-start;
+    line-height: 1;
+}
+.byLine {
+    font-size: x-large;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-left: 2%;
+    line-height: 1;
+}
+
+.heroImage {
+    width: 95%;
+    height: auto;
+    margin: 1% 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    box-shadow: 10px 8px 10px -3px black;
+}
+
+.fullDescription {
+    border-bottom: 4px solid hsla(0, 0%, 85%, 65);
+    border-right: 2px solid hsla(0, 0%, 85%, 65);
+    border-left: 2px solid hsla(0, 0%, 85%, 65);
+    border-radius: 8%;
+    padding: 2%;
+}
+.linkHeader {
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 10%;
+    padding: 2%;
+    align-self: center;    
+}
+.youtubeThumb {
+    width: 100%;
+}
+.youtubeContainer {
+    width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: auto;
+}
+.youtubeSection {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}

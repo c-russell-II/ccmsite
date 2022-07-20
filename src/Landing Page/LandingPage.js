@@ -22,6 +22,7 @@ const LandingPage = (props) => {
             <section className={styles.summarySection}>
             {modInfo.map((e,i) => <ModSummary mod={e} index={i} key={i}/>)}
             </section>
+            <a href="https://discord.gg/UCDyZyr6gg">Click here to go to the SC2 Custom Campaign Manager Discord!</a>
         </>
     )
 }

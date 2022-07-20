@@ -4,8 +4,9 @@ const DownloadMod = (props) => {
 
     return (
         <>
-            <h3>Installing campaigns</h3>
-            <h4>Click here to find campaigns to download</h4>
+            <h1>Download starting dialogue</h1>
+            <p>Download Override Dialogue</p>
+            <h3 className={styles.downloadHeader}>Installing & Playing campaigns</h3>
             <ol className={styles.listContainer}>
                 <li className={styles.listItem}>After downloading, open the campaign manager.</li>
                 <li className={styles.listItem}>Drag the <strong>zipped</strong> file into the Campaign Manager.</li>
