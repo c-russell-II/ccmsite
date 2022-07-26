@@ -29,15 +29,35 @@ const modInfo = [
     },
     {
         name: 'Real-Scale Wings of Liberty',
+
         linkName: 'WoL_Real_Scale',
+
         author: 'TheRealRhyme',
+
         base: 'Wings of Liberty',
+
         summary: 'Real-Scale Wings of Liberty focuses on creating a campaign more faithful to lore, through unit scale, stats, and abilities.',
+
         description: 'Real-Scale Wings of Liberty allows the player to enjoy the campaign in a more lore-accurate way. All units are scaled to more accurately reflect their canonical size. Unit statistics are also changed to represent those new sizes. Battlecruisers have 17,000 HP and Marines are blown away by single Siege Tank shots. This mod functions on all difficulties.',
+
         thumbnailLink: "WoLDefault.jpg",
+
         links: {
-            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFu36fzV3AUasB4zt4HEb6-6", thumb: "https://img.youtube.com/vi/YyuGutwzW-E/sddefault.jpg"}, {creator: 'Lowko', link: "https://www.youtube.com/watch?v=CMx_ARlc03k", thumb: "https://img.youtube.com/vi/CMx_ARlc03k/sddefault.jpg"}],
+            youtube: [
+                {
+                    creator: "GiantGrantGames",
+                    link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFu36fzV3AUasB4zt4HEb6-6",
+                    thumb: "https://img.youtube.com/vi/YyuGutwzW-E/sddefault.jpg"
+                },
+                {
+                    creator: 'Lowko',
+                    link: "https://www.youtube.com/watch?v=CMx_ARlc03k",
+                    thumb: "https://img.youtube.com/vi/CMx_ARlc03k/sddefault.jpg"
+                }
+            ],
+
             download: 'https://drive.google.com/drive/folders/1YC2Ppp3DDV8BmcOfEkY58yCWOp2gQ34h?usp=sharing',
+
             other: {},
         }
     },
@@ -123,15 +143,45 @@ const modInfo = [
             download: 'https://drive.google.com/drive/folders/1iqSnKkjxgy-VfUNzgHrNxdU-H1rrNxpp?usp=sharing',
             other: {},
         }
+    },
+    {
+        name: "Violet's Wings of Liberty Rework",
+        linkName: 'WoL_Violet_Rework',
+        author: 'Violet',
+        base: 'Nova Covert Ops',
+        summary: 'This mod for the Wings of Liberty Campaign aims to rework the units, upgrades, research and missions to provide a fresh and hopefully more well balanced experience.',
+        description: "This mod for the Wings of Liberty Campaign aims to rework the units, upgrades, research and missions to provide a fresh and hopefully more well balanced experience. Practically every unit has been changed in some way to give it a role and purpose that doesn't fully conflict with another, something that is quite challenging with the 25+ units available in Wings of Liberty. The campaign is designed to be harder than the regular Brutal difficulty. This mod is specifically designed to be played on the Brutal [Violet's Brutal] Difficulty. While technically playable on the lower difficulties, it is not tested, and it is absolutely not balanced and therefore will cause more suffering. If you have thoughts, feedback or wish to discuss the mod with me, please do so in the Discussion and feedback channel on the main server",
+        thumbnailLink: 'WoLDefault.jpg',
+        links: {
+            youtube: [{creator: "Violet", link: "https://www.youtube.com/playlist?list=PLabbI4yIwE_4W73RwCx7ttx4PQGPEQKID", thumb: "https://img.youtube.com/vi/Fsr7v66Efco/sddefault.jpg"}],
+            download: 'https://drive.google.com/drive/folders/1KbWAIYRxA8ExLKfTOBSfTT___CwVxlxQ?usp=sharing',
+            other: {},
+        }
+    },
+    {
+        name: 'Hyperion Crew Mod',
+        linkName:'Hyperion_Crew',
+        author: 'OrcaWarrior2',
+        base: 'Wings of Liberty',
+        summary: "The Hyperion Crew Mod adds another resource to Wings of Liberty: Crew Members! Marine Suits must be crewed, SCV's Must be Crewed, and Wraiths must be crewed. Everything that isn't a robot must be crewed!",
+        description: "The Hyperion Crew Mod adds another resource to Wings of Liberty: Crew Members! Marine Suits must be crewed, SCV's Must be Crewed, and Wraiths must be crewed. Everything that isn't a robot must be crewed! If a unit is killed, the crew dies, and if they live they stick with you between missions! Crewed units are powerful, having individual upgrades that can allow your forces to punch well above their weight, making both the use and loss of a crew member impactful and important. The mod functions on all difficulties.",
+        thumbnailLink: 'WoLDefault.jpg',
+        links: {
+            youtube: [{creator: "GiantGrantGames", link: "https://www.youtube.com/playlist?list=PLWIRRgIfniFtPmCKczUH4si1yNKkTf99d", thumb: "https://img.youtube.com/vi/ksQpSXIgEfY/sddefault.jpg"}],
+            download: 'https://drive.google.com/drive/folders/1v65AbtU6XKw6FsoR9YCsQmD_neoPHATt?usp=sharing',
+            other: {},
+        }
     }
 ]
 
 // {
 //     name: '',
+//     linkName: '',
 //     author: '',
 //     base: ''
 //     summary: '',
 //     description: '',
+//     thumbnailLink: '',
 //     links: {
 //         youtube: [{creator: "GiantGrantGames", link: ""}],
 //         download: '',

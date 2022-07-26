@@ -18,7 +18,6 @@ const ModPage = (props) => {
                 src={require(`../Assets/${mod.thumbnailLink}`)}
                 alt="Hero Banner for the mod."
                 className={styles.heroImage}
-            
             />
             <Link to="download">Click Here to download {mod.name} now!</Link>
             <br/>

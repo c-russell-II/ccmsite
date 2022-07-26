@@ -4,6 +4,7 @@
     text-align: center;
     justify-self: center;
     margin: 1%;
+    font-family: "Inter", sans-serif;
 }
 .heroImage {
     width: 95%;
@@ -24,6 +25,7 @@
     justify-self: center;
     text-decoration: underline;
     margin: 1% 0;
+    font-family: "Inter", sans-serif;
 }
 .summarySection {
     margin: 1%;

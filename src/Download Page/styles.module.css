@@ -22,9 +22,11 @@
     list-style-type:decimal;
 }
 .listItem {
-    margin: 1em 1em;   
+    margin: 1em 1em;
+    font-family: "Inter", sans-serif;
 }
 .downloadHeader {
     font-size: large;
     font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
